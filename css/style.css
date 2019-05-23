@@ -1,0 +1,30 @@
+/* Add your own CSS rules here */
+#description {
+  margin: 0 0 1em 0;
+}
+
+tei-teiHeader {
+  display: none;
+}
+
+tei-titleStmt tei-title {
+  color:green;
+  text-align: center;
+}
+
+tei-note {
+  font-size: 9px;
+}
+
+tei-postscript::before{
+  content:"Postscript"
+}
+tei-postscript {
+  color:blue;
+}
+
+tei-p {
+  font-size: 9px;
+  text-align: justify;
+
+}
